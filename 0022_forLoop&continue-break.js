@@ -7,11 +7,11 @@ for(let i = 1; i <= 10; i++){
     console.log(`Lifting weights repetition ${i}`); // print 10 lines.
 }
 
-// when the loop if first incountered the first part of it get executed, let i = 1; marking the initialization of the variable i, this variable can be used in the for body.
-// then condition would be checked to enter the loop body. if its true the control would enter in the loop body else, it would skip it.
-// one it enters the loop body and finishes all the statements inside the for body. it comes to the mutation statement i++, that mutates i's value from 1 to 2. then the condition would again be checked and the process repeats itself, until the condition become false.
+// When the loop is first encountered the first part of it gets executed, let i = 1; marking the initialization of the variable i, this variable can be used within the for-loop body.
+// After that the loop condition would be checked for entering the loop body. if its true the control would enter in the loop body else, it would skip it.
+// Once the control enter the loop body and finish executing all statements inside the body. it moves on to the mutation step/statement i++, this mutates i's value from 1 to 2. And then the condition would again be checked and the process repeats itself, until the loop condition become/evaluates false.
 
-
+////////////////////////////////////////
 
 // looping Array
 let jonasArray = [
@@ -51,7 +51,7 @@ console.log(ages);
 
 
 
-// continue and break
+// The Continue and Break statements.
 
 // lets say we only want to print string from jonasArray to the console.
 console.log("=========Continue===========");
@@ -59,7 +59,7 @@ console.log("=========Continue===========");
 for(let i = 0; i<jonasArray.length; i++){
     if(typeof jonasArray[i] != 'string')
         continue; // when continue statement is encountered it forces the control flow back to continue with the loop itration without finishing the remaning body.
-        // The continue redirects the flow to the modifier statement in the for definition. that is : i++
+        // The continue redirects the flow to the mutation step/statement in the for-loop definition. that is : i++
         
     // this statement would be skipped if continue was encountered. before this.
     console.log(jonasArray[i]);
@@ -67,7 +67,7 @@ for(let i = 0; i<jonasArray.length; i++){
 }
 
 // continue statemetn is very helpful in certain scenarios but in coding one can slove the same problems in multiple ways.
-// one can say the above for loop can be doen without continue statement, and I agree with that, this example is just to illustrate the use of continue and how it works.
+// one can say the above for loop can be doen without continue statement, and I agree with that, this example is just to illustrate the use of continue statement and how it works.
 
 
 
@@ -79,11 +79,11 @@ for(let i = 0; i<jonasArray.length; i++){
 console.log("=========Break============");
 for(let i = 0; i<jonasArray.length; i++){
     if(typeof jonasArray[i] == 'number')
-        break; // this statement when encountered will force the contorl flow, out of for loop no matter the state of the for loop, meaning the loop can be on its first intration of many but if break statement is encountered then that's it. the execution of for stops then and there, bringing the contorl flow out of for.
+        break; // this statement when encountered will force the contorl flow, out of for-loop no matter the state of the for loop, meaning the loop can be on its first intration of many but if break statement is encountered then that's it. the execution of for stops then and there, bringing the contorl flow out of for.
     console.log(jonasArray[i]);
 }
 
-console.log("===you are not out of the for loop===");
+console.log("===you are now out of the for loop===");
 
 
 
