@@ -13,7 +13,14 @@
 // let dice = Math.random() * 6
 // console.log(dice);
 
-let dice = Math.trunc(Math.random() * 6 ) +1;
+// Math.random() would give us a floating point number between 0 and 1 excluding 1, like 0.2 or 0.9998.
+// Math.random() * 6 would give us a floating point number between 0 to 6 excluding 6. like 0.66 , 1.8 ,2.7 ,3.453 , 4.90, 5.9987
+// Math.trunc() would remove the digits after decimal point and would provide us with a whole number, like 0,1,2,3,4,5 BUT.....
+// A normal dice doesn't have a Zero lable, it starts from 1 and goes up to 6, not 5
+// to achive this will add 1 to the result we got.
+// this will result in a random integer generation between 1 and 6, including both 1 and 6. Dice
+
+let dice = Math.trunc(Math.random() * 6 ) +1; 
 // console.log(dice);
 while(dice !== 6){
     console.log(`You rolled a ${dice}`);
