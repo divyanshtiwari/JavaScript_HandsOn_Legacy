@@ -43,7 +43,7 @@
 // We have understood what, now lets dig into how does it fit.
 // JavaScript was developed to solves for the web world, to make web-pages more interactive and dynamic.
 // JavaScript is the programming language of the web and is offten know as the third pillar of web-development with HTML and CSS.
-// Where HTML is responsible for the structure and CSS for the presentation, JavaScript is the engine that makes it all interavtive and alive.
+// Where HTML is responsible for the structure, CSS for the presentation and JavaScript is the engine that makes it all interavtive and alive.
 // In Simpler words, if HTML is skeleton, CSS is the skin, then JS is the muscle that moves it all.
 
 // Example : Form validation with real-time feedback before submitting the data to the server
